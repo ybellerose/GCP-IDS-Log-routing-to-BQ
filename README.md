@@ -21,7 +21,8 @@ Provision writer_identity IAM access to Bigquery to write logs
 ```
 ### Filter
 Default active filters, feel free to modify those filters to reflect your needs.
-*ids.googleapis.com%2Fthreat
-*ids.googleapis.com%2Ftraffic
+ids.googleapis.com%2Fthreat
+ids.googleapis.com%2Ftraffic
 
+### Scope
 ![Terraform Scope](assets/terraform_scope.png)
